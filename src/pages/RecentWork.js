@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
     },
     content: {
         flex: '1 0 auto',
-        height:700,
+        height:520,
         width: 600,
     },
     cover: {
@@ -28,14 +28,14 @@ function RecentWorkPage() {
     const classes = useStyles();
     const theme = useTheme();
     return (
-        <Card className="recentwork">
+        <Card style={{backgroundColor:"rgb(228, 211, 217)"}}>
             <CardContent className={classes.content}>
                 <Typography component="h5" variant="h5">
                     Grocery Market
           </Typography>
                 <Typography variant="subtitle1" color="textSecondary">
-                    This web application has two parts, one for admin to perform CRUD operations by<br/>
-                   signing-in and another one is Groceries web page with Cart and CheckOut options <br/>  
+                    This web application has two parts, one for admin to perform CRUD operations by 
+                    signing-in and another one is Groceries web page with Cart and CheckOut options  
           </Typography>
           <Typography variant="subtitle2">
                     TechStack: FrontEnd-React.js and BackEnd-MongoDB
