@@ -1,0 +1,45 @@
+
+* {
+    box-sizing: border-box;
+    margin: auto;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .about,
+  .education,
+  .skills,
+  .recentwork {
+    display: flex;
+    height: 90vh;
+    background-color: rgb(228, 211, 217);
+  
+  }
+ 
+  .h2-about{
+    position: absolute;
+    margin-left: 500px;
+    margin-top:100px;
+   }
+
+   .info-about{
+    margin-top:200px;
+    margin-left: 50px;
+   }
+  
+ .image-about{
+  margin-left: 200px;
+  border-radius: 50px;
+  height: 40vh;
+  width: 40vh;
+ }
+ 
+  .recentwork {
+   /* background-image: url('../images/image2.jpeg'); */
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  
