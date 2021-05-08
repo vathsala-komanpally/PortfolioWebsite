@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { AboutPage} from "../src/pages/AboutPage";
 import { EducationPage} from "../src/pages/EducationPage";
-import { RecentWorkPage } from "../src/pages/RecentWork";
+import { RecentProjects } from "./pages/RecentProjects";
 import { Skills} from "../src/pages/Skills";
 import {Footer} from "./components/Footer";
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path='/about' exact component={AboutPage} />
         <Route path='/education' exact component={EducationPage} />
         <Route path='/skills' exact component={Skills} />
-        <Route path='/recentwork' exact component={RecentWorkPage} />
+        <Route path='/recentprojects' exact component={RecentProjects} />
       </Switch>
       <Footer/>
       </Router>

@@ -26,7 +26,7 @@ function AboutPage() {
             <Grid item xs={3}>
             </Grid>
             <Grid item xs={9}>
-                <Typography component="h4" variant="h4">AboutMe:</Typography>
+                <Typography component="h4" variant="h4">About me:</Typography>
                 <Typography component="h6" variant="h6">
                     Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB </Typography>
             </Grid>
@@ -35,20 +35,23 @@ function AboutPage() {
             </Grid> 
             <Grid item xs={9}>
                 <Typography variant="subtitle1" color="textSecondary">
-                    I am a PR holder and actively looking for a frontend developer role. As a computer science graduate I'am ready
-                    to work on technologies, continue self learning programming languages and start looking at this new and exciting
-                    field in a more serious way. <br/><br/>
-
-                    To achieve my goal I am due to Graduate from General Assembly's Software Engineering Flex
-                    Immersive in May, and I have a Masters of Information Security and a Bachelors of Computer
-                    Science. Through my studies I have learned and gained good knowledge on Java Script, React JS,
-                    C#, HTML5, CSS3, Bootstrap, NodeJS and REST API. Also have a knowledge on Git Hub, BitBucket.
-                    Ready to work immediately and ready to relocate anywhere. Always enthusiastic to learn new
-                    things and latest technologies.<br/> <br/>
-
-                    More than this I bring across a skill set honed through working in child care,
-                    I can handle any pressure, all stakeholders, work collaboratively, quickly and patiently
-                    and am ready to work hard to create strong code and great products.</Typography>
+                I hold an Australian permanent residency and I am actively looking for a frontend developer role. I am a computer science 
+                graduate keen to work on new technologies and especially continue learning programming languages.
+                </Typography><br/>
+                <Typography variant="subtitle1" color="textSecondary">
+                To achieve my goal of becoming a professional software developer, I have completed a Masters of Information Security and a Bachelors of 
+                Computer Science. I also completed the General Assembly's Software Engineering Flex Immersive to gain exposure to more software languages. 
+                Through my studies I have gained knowledge of Java Script, React.JS, C#, HTML5, CSS3, Bootstrap, NodeJS and REST API. I have also used GitHub 
+                and BitBucket. 
+                </Typography><br/>
+                <Typography variant="subtitle1" color="textSecondary">
+                I am ready to work immediately and ready to relocate anywhere. I am always enthusiastic to learn new things, especially emerging technologies because 
+                I think this is a really exciting area to be working in. 
+                </Typography>
+                <Typography variant="subtitle1" color="textSecondary">
+                More than this, I bring across a skill set honed through working in child care. This means I can handle any pressure, a variety of stakeholders, 
+                work collaboratively, quickly and patiently and am accustomed to working hard.
+                </Typography>
             </Grid>
         </Grid>
         </div>
@@ -56,22 +59,3 @@ function AboutPage() {
 }
 
 export { AboutPage };
-
-
-// <h2 className="h2-about">AboutMe</h2>
-// <img className="image-about" src={process.env.PUBLIC_URL + "/images/image4.png"} />
-// <section className="info-about">
-//     <h4>Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB</h4>
-//     <p>I am a PR holder and actively looking for a frontend developer role. As a computer science graduate I'am ready
-//     to work on technologies, continue self learning programming languages and start looking at this
-//     new and exciting field in a more serious way.</p>
-//     <p> To achieve my goal I am due to Graduate from General Assembly's Software Engineering Flex
-//     Immersive in May, and I have a Masters of Information Security and a Bachelors of Computer
-//     Science. Through my studies I have learned and gained good knowledge on Java Script, React JS,
-//     C#, HTML5, CSS3, Bootstrap, NodeJS and REST API. Also have a knowledge on Git Hub, BitBucket.
-//     Ready to work immediately and ready to relocate anywhere. Always enthusiastic to learn new
-//         things and latest technologies.</p>
-//     <p> More than this I bring across a skill set honed through working in child care,
-//     I can handle any pressure, all stakeholders, work collaboratively, quickly and patiently
-//             and am ready to work hard to create strong code and great products.</p>
-// </section>

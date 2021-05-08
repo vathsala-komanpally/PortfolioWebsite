@@ -8,9 +8,9 @@
   .about,
   .education,
   .skills,
-  .recentwork {
+  .recentprojects {
     display: flex;
-    height: 90vh;
+    height: 105vh;
     background-color: rgb(228, 211, 217);
   }
  
@@ -31,13 +31,5 @@
   width: 20vh;
  }
  
-  .recentwork {
-   /* background-image: url('../images/image2.jpeg'); */
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
+
   

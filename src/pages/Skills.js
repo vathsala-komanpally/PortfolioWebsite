@@ -4,9 +4,10 @@ import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
-import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 
 function Skills() {
@@ -23,66 +24,30 @@ function Skills() {
     ]
     return (
         <div className="skills">
-            <TableContainer component={Paper} style={
-                {width: 700}
-            }>
-      <Table aria-label="simple table">
-    
-    <Typography variant="h3">Skills:</Typography>
-        <TableBody>
-          {skillSet.map((skill) => (
-            <TableRow key={skill.skill}>
-              <TableCell component="th" scope="row">
-                {skill.skill}
-              </TableCell>
-              <TableCell align="right">{skill.languages}</TableCell>
-              
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
+            <Card style={{ backgroundColor: "rgb(228, 211, 217)" }}>
+                <CardContent>
+                    <Typography variant="h4">Skills:</Typography>
+                    <TableContainer component={Paper} style={{ width: 700 }}>
+                        <Table aria-label="simple table">
+                            <TableBody>
+                                {skillSet.map((skill) => (
+                                    <TableRow key={skill.skill}>
+                                        <TableCell component="th" scope="row">
+                                            {skill.skill}
+                                        </TableCell>
+                                        <TableCell align="right">{skill.languages}</TableCell>
+
+                                    </TableRow>
+                                ))}
+                            </TableBody>
+                        </Table>
+                    </TableContainer>
+                </CardContent>
+            </Card>
         </div>
     )
 }
 
 export { Skills };
-{/* <div className="row education">
-<div className="three columns header-col">
-    <h1><span>Education</span></h1>
-</div>
-
-<div className="nine columns main-col">
-    <div className="row item">
-        <div className="twelve columns">
-          .....Education
-        </div>
-    </div>
-</div>
-
-<div className="row skill">
-
-    <div className="three columns header-col">
-        <h1><span>Skills</span></h1>
-    </div>
-
-    <div className="nine columns main-col">
-        <div className="bars">
-            <ul className="skills">
-                ...Skills
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div className="row work">
-
-    <div className="three columns header-col">
-        <h1><span>Projects</span></h1>
-    </div>
-    .....Projects
-
-</div>
-</div> */}
 
 

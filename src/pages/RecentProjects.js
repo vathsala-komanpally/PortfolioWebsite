@@ -24,7 +24,7 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-function RecentWorkPage() {
+function RecentProjects() {
     const classes = useStyles();
     const theme = useTheme();
     return (
@@ -60,16 +60,4 @@ function RecentWorkPage() {
     )
 }
 
-export {RecentWorkPage};
-  // <iframe
-        //   id="video"
-        //   width="230"
-        //   heigh="154"
-        //   src={project5}
-        //   allowFullScreen
-        //>
-        // <video width="320" height="240" controls>
-        //         <source src="movie.mp4" type="video/mp4"/>
-        //             <source src="movie.ogg" type="video/ogg"/>
-        //                 Your browser does not support the video tag.
-        //                 </video>
+export {RecentProjects};
