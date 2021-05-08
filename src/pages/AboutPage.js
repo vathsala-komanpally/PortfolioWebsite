@@ -27,13 +27,13 @@ function AboutPage() {
             </Grid>
             <Grid item xs={9}>
                 <Typography component="h4" variant="h4">About me:</Typography>
-                <Typography component="h6" variant="h6">
-                    Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB </Typography>
             </Grid>
             <Grid item xs={3}>
                 <CardMedia className={classes.media} image={Image} title="Contemplative Reptile" />
             </Grid> 
             <Grid item xs={9}>
+            <Typography component="h6" variant="h6">
+                    Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB </Typography>
                 <Typography variant="subtitle1" color="textSecondary">
                 I hold an Australian permanent residency and I am actively looking for a frontend developer role. I am a computer science 
                 graduate keen to work on new technologies and especially continue learning programming languages.
