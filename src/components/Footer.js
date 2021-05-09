@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-input">
-                    <i class='fas fa-phone'>: 04 20 446 173</i><br />
+                    <i class='fas fa-phone'>: 0420 446 173</i><br />
                     <i class='fas fa-envelope'>: vathsala.komanpally@gmail.com </i><br />
                     <a class='social-icon-link github' href="https://github.com/vathsala-komanpally" target='_blank' rel="noopener" aria-label='Github'>
                         <i class='fab fa-github'>GitHub </i>

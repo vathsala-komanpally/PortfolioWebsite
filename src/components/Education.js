@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Typography from '@material-ui/core/Typography';
 
 const Education=(props)=> {
     return (
@@ -11,7 +12,13 @@ const Education=(props)=> {
                 </div>
             )
             )}
-            </ul>
+            </ul><br/>
+            <h5>Publication:</h5>
+            <Typography variant="subtitle1">
+            Patrick Bours & Vathsala Komanpally, “Performance of Keystroke Dynamics when Allowing Typing Corrections"; <br/>
+            Proceedings of the 2nd International Workshop on Biometrics and Forensics (IWBF), 2014.
+          </Typography>
+          
         </div>
 
     )
