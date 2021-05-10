@@ -6,6 +6,8 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
+import SkillsLogo from '../images/StickerBanner_WebDev.png';
+import CardMedia from '@material-ui/core/CardMedia';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 
@@ -24,9 +26,10 @@ function Skills() {
     ]
     return (
         <div className="skills">
-            <Card style={{ backgroundColor: "rgb(228, 211, 217)" }}>
+            <Card>
                 <CardContent>
                     <Typography variant="h4">Skills:</Typography>
+                    <CardMedia style={{height:100, width:700}} image={SkillsLogo} title="skill logo" />
                     <TableContainer component={Paper} style={{ width: 700 }}>
                         <Table aria-label="simple table">
                             <TableBody>
