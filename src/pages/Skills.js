@@ -17,7 +17,7 @@ function Skills() {
         { skill: "Editor", languages: "Visual Studio Code" },
         { skill: "Programming languages", languages: "C, C++, C#.net, MatLab" },
         { skill: "Database", languages: "MS SQL, Mongo DB" },
-        { skill: "Server side framework", languages: "Express JS, NodeJS, Ruby on Rails" },
+        { skill: "Server side framework", languages: " Express. js, Node. js, Ruby on Rails" },
         { skill: "Operating systems", languages: "Windows 7/8/10, Mac OS" },
         { skill: "Project Management", languages: "Jira , Confluence." },
         { skill: "Version Control", languages: "GitHub ,Bitbuket." }

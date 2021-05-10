@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     },
     content: {
         flex: '1 0 auto',
-        height: 520,
+        height: 540,
         width: 600,
     },
     cover: {
@@ -47,7 +47,6 @@ function RecentProjects() {
                 </Button>
                 <video width="600" height="350" controls autoPlay playsInline muted src={project5} />
             </CardContent>
-
             <CardContent className={classes.content}>
                 <Typography component="h5" variant="h5">
                     Restaurant Website
