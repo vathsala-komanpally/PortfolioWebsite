@@ -17,8 +17,8 @@ function Skills() {
         { skill: "Web Technologies GUI", languages: "HTML5, CSS3, Bootstrap" },
         { skill: "User Interactivity", languages: "JavaScript(ES6 Standard), React.js, JQuery" },
         { skill: "Editor", languages: "Visual Studio Code" },
-        { skill: "Programming languages", languages: "C, C++, C#.net, MatLab" },
-        { skill: "Database", languages: "MS SQL, Mongo DB" },
+        { skill: "Programming languages", languages: "C, C++, C#.net, Ruby" },
+        { skill: "Database", languages: "MS SQL, Mongo DB, PostgreSQL" },
         { skill: "Server side framework", languages: " Express. js, Node. js, Ruby on Rails" },
         { skill: "Operating systems", languages: "Windows 7/8/10, Mac OS" },
         { skill: "Project Management", languages: "Jira , Confluence." },
@@ -26,6 +26,7 @@ function Skills() {
     ]
     return (
         <div className="skills">
+            <div>
             <Card>
                 <CardContent>
                     <Typography variant="h4">Skills:</Typography>
@@ -47,6 +48,7 @@ function Skills() {
                     </TableContainer>
                 </CardContent>
             </Card>
+            </div>
         </div>
     )
 }

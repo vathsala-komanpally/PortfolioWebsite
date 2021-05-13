@@ -50,7 +50,8 @@ function AboutPage() {
                             To achieve my goal of becoming a professional software developer, I have pursued bachelors in
                             Computer Science and to further enhance my knowledge in security I studied masters in Information Security. 
                             I also completed the Software Engineering Immersive course through General Assembly to gain exposure to more software languages.
-                            Through my studies I have gained knowledge of Java Script, React.JS, HTML5, CSS3, Bootstrap, REST API, etc.
+                            Through my studies I have gained knowledge of Java Script, React.JS, HTML5, CSS3, Github, DOM manipulation, Responsive design, Agile, Bootstrap,
+                             JQuery, Node.JS, Express.JS, AJAX, API's and more!
                 </Typography><br />
                         <Typography variant="body1" color="textSecondary">
                             I am always enthusiastic to learn new things, especially emerging technologies because

@@ -10,7 +10,7 @@
   .skills,
   .recentprojects {
     display: flex;
-    height: 105vh;
+    height: 140vh;
     /* background-color: rgb(228, 211, 217); */
   }
  
