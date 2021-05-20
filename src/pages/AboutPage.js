@@ -43,7 +43,7 @@ function AboutPage() {
                         Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB </Typography>
                         <br />
                         <Typography variant="body1" color="textSecondary">
-                            I hold an Australian permanent residency and I am actively looking for a frontend developer role. I am a computer science
+                            I hold an Australian permanent residency and I am actively looking for a Frontend Developer role. I am a Computer Science
                             graduate keen to work on new technologies and especially continue learning programming languages.
                 </Typography><br />
                         <Typography variant="body1" color="textSecondary">
