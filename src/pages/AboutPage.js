@@ -47,7 +47,7 @@ function AboutPage() {
                             graduate keen to work on new technologies and especially continue learning programming languages.
                 </Typography><br />
                         <Typography variant="body1" color="textSecondary">
-                            To achieve my goal of becoming a professional software developer, I have pursued bachelors in
+                            To achieve my goal of becoming a professional Software Developer, I have pursued bachelors in
                             Computer Science and to further enhance my knowledge in security I studied masters in Information Security. 
                             I also completed the Software Engineering Immersive course through General Assembly to gain exposure to more software languages.
                             Through my studies I have gained knowledge of Java Script, React.JS, HTML5, CSS3, Github, DOM manipulation, Responsive design, Agile, Bootstrap,
