@@ -4,19 +4,21 @@ import Typography from '@material-ui/core/Typography';
 import Image from '../images/image4.png';
 import CardMedia from '@material-ui/core/CardMedia';
 import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 const useStyles = makeStyles((theme) => ({
     root: {
         flexGrow: 1,
     },
     content: {
-        alignItems: "center",
         textAlign: "justify",
-        paddingRight: "100px",
+        paddingRight: "10px",
+        paddingLeft: "20px",
     }, media: {
-        height: 380,
+        height: "40vh",
         width: 250,
-        borderRadius: '20px',
+        borderRadius: '100px',
     },
 }));
 
@@ -25,10 +27,14 @@ function AboutPage() {
     return (
         <div className="about">
             <div className="all-about">
-            <img className="image-about"  src={Image} />
-            <div className="info-about">
-                <h3>About me:</h3>
-            <p> Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB</p>
+            <Card className={classes.content} >
+                <CardContent >
+                <CardMedia className={classes.media} image={Image} title="MyImage" />
+                <Typography component="h4" variant="h4">About me:</Typography>
+
+                <Typography component="body1" variant="textprimary">
+
+                <p> Software Developer | Open to job opportunities | React | JavaScript | HTML | CSS | C# | SQL | Mongo DB</p>
                 <p > I hold an Australian permanent residency and I am actively looking for a Frontend Developer role. I am a Computer Science
                             graduate keen to work on new technologies and especially continue learning programming languages. </p>
                 <p>To achieve my goal of becoming a professional Software Developer, I have pursued bachelors in
@@ -38,9 +44,7 @@ function AboutPage() {
                              JQuery, Node.JS, Express.JS, AJAX, API's and more!</p>
                 <p> I am always enthusiastic to learn new things, especially emerging technologies because
                             I think this is a really exciting area to be working in. </p>
-               
-            </div>
-            </div>
+                            </Typography>
             {/* <Grid container className={classes.content}>
                 <Grid item xs={3}>
                     <CardMedia className={classes.media} image={Image} title="MyImage" />
@@ -68,6 +72,9 @@ function AboutPage() {
                 </Typography></p>
                 </Grid>
             </Grid> */}
+            </CardContent>
+            </Card>
+            </div>
         </div>
     );
 }

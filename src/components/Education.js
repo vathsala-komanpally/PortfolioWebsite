@@ -1,9 +1,13 @@
 import React from 'react';
 import Typography from '@material-ui/core/Typography';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 const Education=(props)=> {
     return (
         <div>
+             <Card >
+                <CardContent >
             <h3>Education:</h3>
             <ul>
             {props.education.map((Element) =>
@@ -18,7 +22,8 @@ const Education=(props)=> {
             Patrick Bours & Vathsala Komanpally, “Performance of Keystroke Dynamics when Allowing Typing Corrections"; <br/>
             Proceedings of the 2nd International Workshop on Biometrics and Forensics (IWBF), 2014.
           </Typography>
-          
+          </CardContent>
+          </Card>
         </div>
 
     )
