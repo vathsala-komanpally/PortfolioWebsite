@@ -10,25 +10,33 @@
   .skills,
   .recentprojects {
     display: flex;
-    height: 140vh;
+    height: 150vh;
     /* background-color: rgb(228, 211, 217); */
   }
  
-  .h2-about{
-    position: absolute;
-    margin-left: 500px;
-    margin-top:100px;
-   }
-
-   .info-about{
-    margin-top:200px;
-    margin-left: 50px;
-   }
   
  .image-about{
-  border-radius: 50px;
-  height: 20vh;
-  width: 20vh;
+   border-radius: 100px;
+   height: 40vh;
+ }
+
+ .info-about{
+   float: left;
+   margin-left: 150px;
+   margin-right: 50px;
+   text-align: justify;
+ }
+
+ .all-about{
+   display: grid;
+ }
+
+ p{
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .skills-info{
+   display: grid;
  }
  
 

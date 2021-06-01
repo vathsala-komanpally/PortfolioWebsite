@@ -26,12 +26,12 @@ function Skills() {
     ]
     return (
         <div className="skills">
-            <div>
+            <div className="skills-info">
             <Card>
                 <CardContent>
                     <Typography variant="h4">Skills:</Typography>
-                    <CardMedia style={{height:100, width:700}} image={SkillsLogo} title="skill logo" />
-                    <TableContainer component={Paper} style={{ width: 700 }}>
+                    <CardMedia style={{height:100, width:500}} image={SkillsLogo} title="skill logo" />
+                    <TableContainer component={Paper} style={{ width: 500 }}>
                         <Table aria-label="simple table">
                             <TableBody>
                                 {skillSet.map((skill) => (
