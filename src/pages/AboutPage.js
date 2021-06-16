@@ -13,8 +13,8 @@ const useStyles = makeStyles((theme) => ({
     },
     content: {
         textAlign: "justify",
-        paddingRight: "10px",
-        paddingLeft: "20px",
+        paddingRight: "5px",
+        paddingLeft: "5px",
     }, media: {
         height: "40vh",
         width: 250,
@@ -26,9 +26,9 @@ function AboutPage() {
     const classes = useStyles();
     return (
         <div className="about">
-            <div className="all-about">
+            <div className="about-info">
             <Card className={classes.content} >
-                <CardContent >
+                <CardContent style={{height:660, width:700}}>
                 <CardMedia className={classes.media} image={Image} title="MyImage" />
                 <Typography component="h4" variant="h4">About me:</Typography>
 
