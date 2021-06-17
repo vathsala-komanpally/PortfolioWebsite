@@ -27,9 +27,9 @@ function Skills() {
     return (
         <div className="skills">
             <div className="skills-info">
-            <Card>
+            <Card style={{borderRadius:"30px"}}>
                 <CardContent>
-                    <Typography variant="h4">Skills:</Typography>
+                    <Typography variant="h4" style={{color:"rgb(67, 95, 112)"}}>Skills:</Typography>
                     <CardMedia style={{height:100, width:500}} image={SkillsLogo} title="skill logo" />
                     <TableContainer component={Paper} style={{ width: 500 }}>
                         <Table aria-label="simple table">

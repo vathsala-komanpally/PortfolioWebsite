@@ -6,9 +6,9 @@ import CardContent from '@material-ui/core/CardContent';
 const Education=(props)=> {
     return (
         <div>
-             <Card >
-                <CardContent >
-            <h3>Education:</h3>
+             <Card style={{borderRadius:"30px"}}>
+                <CardContent>
+            <h3 style={{color:"rgb(67, 95, 112)"}}>Education:</h3>
             <ul>
             {props.education.map((Element) =>
             (<div key={Element.institution}><h3>{Element.course}</h3>
@@ -17,7 +17,7 @@ const Education=(props)=> {
             )
             )}
             </ul><br/>
-            <h5>Publication:</h5>
+            <h5 style={{color:"rgb(67, 95, 112)"}}>Publication:</h5>
             <Typography variant="subtitle1">
             Patrick Bours & Vathsala Komanpally, “Performance of Keystroke Dynamics when Allowing Typing Corrections"; <br/>
             Proceedings of the 2nd International Workshop on Biometrics and Forensics (IWBF), 2014.

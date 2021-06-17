@@ -6,18 +6,21 @@ function Footer() {
     return (
         <div className="footer-container">
             <section className="footer-input">
-                    <i class='fas fa-phone'>: 0420 446 173</i><br />
+            <i class='fas fa-phone'>: 0420 446 173</i><br />
                     <i class='fas fa-envelope'>: vathsala.komanpally@gmail.com </i><br />
-                    <a class='social-icon-link github' href="https://github.com/vathsala-komanpally" target='_blank' rel="noopener" aria-label='Github'>
+                    <a class='social-icon-link github' href="https://github.com/vathsala-komanpally" target='_blank' rel="noopener" aria-label='Github' style={{paddingRight: "30px"}}>
                         <i class='fab fa-github'>GitHub </i>
                     </a>
                     <a class='social-icon-link linkedin' href='https://www.linkedin.com/in/vathsala-komanpally/' target='_blank' aria-label='Linkedin'>
                         <i class='fab fa-linkedin'>LinkedIn </i>
-                    </a>
-                    <a class='social-icon-link facebook' href='https://www.facebook.com/vathsala.reddy.3' target='_blank' aria-label='facebook'>
+                    </a><br/>
+                  
+                    {/* <a class='social-icon-link facebook' href='https://www.facebook.com/vathsala.reddy.3' target='_blank' aria-label='facebook'>
                         <i class='fab fa-facebook'></i>
-                    </a>
+                    </a> */}
+                  
             </section>
+            {/* <span className="footer-subscription-text">© 2021 by Vathsala Komanpally</span> */}
         </div>
     );
 
